@@ -1,12 +1,15 @@
 import '../style/App.css'
 import './ProfilePicture'
 import ProfilePicture from './ProfilePicture';
+import Headline from './Headline';
 
 function App() {
 
   return (
-
-    <ProfilePicture />
+    <>
+      <ProfilePicture />
+      <Headline />
+    </>
 
 
 
