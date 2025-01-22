@@ -1,1 +1,9 @@
 @use '_base.scss';
+
+
+.ProfilePicture {
+    display: flex;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
