@@ -2,12 +2,14 @@ import '../style/App.css'
 import './ProfilePicture'
 import ProfilePicture from './ProfilePicture';
 import Headline from './Headline';
+import SideNav from './SideNav';
 
 function App() {
 
   return (
     <>
-      <ProfilePicture />
+      {/* <ProfilePicture /> */}
+      <SideNav />
       <Headline />
     </>
 
