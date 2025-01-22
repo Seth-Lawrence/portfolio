@@ -1,10 +1,11 @@
 import profilePicture from '../assets/profile-picture.jpg'
+import '../style/ProfilePicture.scss'
 
 export default function ProfilePicture() {
 
     return (
-        <div className="ProfilePicture">
-            <img src={profilePicture}></img>
+        <div>
+            <img className="ProfilePicture" src={profilePicture}></img>
         </div>
 
     )
