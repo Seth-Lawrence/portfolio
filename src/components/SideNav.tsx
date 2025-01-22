@@ -1,5 +1,8 @@
 import '../style/_base.scss'
 
+import ProfilePicture from '../components/ProfilePicture';
+
+
 export default function SideNav() {
 
 
@@ -7,9 +10,18 @@ export default function SideNav() {
 
     return (
         <>
-        <button>
+        <ProfilePicture />
 
-        </button>
+        <div>
+        <button>Skills</button>
+        </div>
+        <div>
+        <button>Projects</button>
+        </div>
+        <div>
+        <button>About</button>
+        </div>
+
         </>
     )
 
