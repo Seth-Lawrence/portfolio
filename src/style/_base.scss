@@ -1,6 +1,8 @@
-div, p, span, body {
-    color: black;
-    font-family: monospace, Arial, Helvetica, sans-serif;
-    background-color: #f4f3f2;
-}
 
+    html {
+        display: flex;
+        box-sizing: border-box;
+        color: black;
+        font-family: monospace, Arial, Helvetica, sans-serif;
+        background-color: #f4f3f2;
+    }
