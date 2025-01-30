@@ -1,7 +1,9 @@
-export default function Skills() {
+const Skills = () => {
 
     return (
         <div className="Skills">
         </div>
     )
 }
+
+export default Skills;

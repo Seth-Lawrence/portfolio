@@ -1,4 +1,4 @@
-export default function Headline() {
+const Headline = () => {
 
 
     return (
@@ -15,3 +15,5 @@ export default function Headline() {
     </>
     )
 }
+
+export default Headline;

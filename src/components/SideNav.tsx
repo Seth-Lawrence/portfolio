@@ -3,11 +3,7 @@ import '../style/_base.scss'
 import ProfilePicture from '../components/ProfilePicture';
 
 
-export default function SideNav() {
-
-
-
-
+const SideNav = () =>  {
     return (
         <>
         <ProfilePicture />
@@ -26,3 +22,5 @@ export default function SideNav() {
     )
 
 }
+
+export default SideNav

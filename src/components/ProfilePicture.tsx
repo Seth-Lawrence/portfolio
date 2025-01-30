@@ -1,7 +1,7 @@
 import profilePicture from '../assets/profile-picture.jpg'
 import '../style/ProfilePicture.scss'
 
-export default function ProfilePicture() {
+const ProfilePicture = () =>  {
 
     return (
         <div>
@@ -10,3 +10,5 @@ export default function ProfilePicture() {
 
     )
 }
+
+export default ProfilePicture;

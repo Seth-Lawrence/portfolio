@@ -1,10 +1,12 @@
-import ProjectCard from "./ProjectCard";
+// import  ProjectCard from "./ProjectCard";
 
-export default function Projects() {
+const Projects = () => {
 
     return (
         <div className='Projects'>
-            <ProjectCard />
+            {/* <ProjectCard/> */}
         </div>
     )
 }
+
+export default Projects;

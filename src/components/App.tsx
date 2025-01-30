@@ -2,9 +2,8 @@ import '../style/App.css'
 import './ProfilePicture'
 import Headline from './Headline';
 import SideNav from './SideNav';
-import Projects from './Projects'
 
-function App() {
+const App = () => {
 
   return (
     <>
