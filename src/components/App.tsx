@@ -2,6 +2,7 @@ import '../style/App.css'
 import './ProfilePicture'
 import Headline from './Headline';
 import SideNav from './SideNav';
+import Projects from './Projects'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <SideNav />
       <Headline />
+      <Projects />
     </>
 
 
