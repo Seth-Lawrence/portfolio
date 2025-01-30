@@ -10,7 +10,7 @@ function App() {
     <>
       <SideNav />
       <Headline />
-      <Projects />
+
     </>
 
 
