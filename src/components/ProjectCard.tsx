@@ -6,18 +6,20 @@ type ProjectCardProps = {
 
 const ProjectCard = (project: ProjectCardProps) => {
 
+   const { name, image, description } = project
+
     return (
         <div className='ProjectCard'>
             <table>
                 <tr className="ProjectCardHeader">
-                    <th>{project.name}</th>
+                    <th>{name}</th>
                 </tr>
                 <tr>
-                    <img className="projectCardImage" alt="project image" src={project.image}></img>
+                    <img className="projectCardImage" alt="project image" src={image}></img>
                 </tr>
                 <tr>
                     <td className="ProjectCardDescription">
-                        {project.description}
+                        {description}
                     </td>
                 </tr>
             </table>
