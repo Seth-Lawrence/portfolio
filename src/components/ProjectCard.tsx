@@ -4,9 +4,7 @@ type ProjectCardProps = {
     description: string;
 };
 
-const ProjectCard = (project: ProjectCardProps) => {
-
-   const { name, image, description } = project
+const ProjectCard = ({name, image, description} : ProjectCardProps) => {
 
     return (
         <div className='ProjectCard'>
