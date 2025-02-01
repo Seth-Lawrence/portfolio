@@ -1,7 +1,8 @@
-import '../style/App.css'
-import './ProfilePicture'
+import '../style/App.css';
+import './ProfilePicture';
 import Headline from './Headline';
 import SideNav from './SideNav';
+import { BrowserRouter } from 'react-router-dom';
 
 const App = () => {
 
@@ -9,7 +10,7 @@ const App = () => {
     <>
       <SideNav />
       <Headline />
-
+      <BrowserRouter />
     </>
 
 
@@ -36,7 +37,7 @@ const App = () => {
     //     Click on the Vite and React logos to learn more
     //   </p>
     // </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
